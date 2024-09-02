@@ -1,0 +1,17 @@
+
+
+.services .row:nth-child(odd){
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px){
+  .services .row {
+    /* display: flex; */
+    flex-direction: row;
+  }
+  .services .row:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+  }
+}
