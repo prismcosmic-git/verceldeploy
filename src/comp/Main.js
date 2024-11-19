@@ -82,7 +82,7 @@ function Main() {
         <div className='row'>
           <div className='col-md-6 my-auto content-wrapper'>
             <div className="badge">
-              <span className="badge-text fs-3">PrismCosmic</span>
+              <span className="badge-text fs-3">PrismCosmic.com</span>
             </div>
             <h1 className="sliding-text fs-1"><b>Illuminating Your Digital Universe</b></h1>
             <h3 className='my-4 fade-in-up'>Leading the Way Delivering Next-Generation IT Solutions</h3>
