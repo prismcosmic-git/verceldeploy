@@ -25,7 +25,7 @@ function Internship() {
               <img src={web} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Web Development</h3>
               <p className='py-md-3'>Gain hands-on experience in web and app development with challenging opportunities and real-world projects.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -33,7 +33,7 @@ function Internship() {
               <img src={graphic} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Graphic Design</h3>
               <p className='py-md-3'>Get involved in projects focusing on various aspects of visual design strategies.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -41,7 +41,7 @@ function Internship() {
               <img src={java} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Java Programming</h3>
               <p className='py-md-3'>Master the fundamentals of Java programming from development to deployment of web applications.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -49,7 +49,7 @@ function Internship() {
               <img src={android} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Android Development</h3>
               <p className='py-md-3'>Start your first app development project with our Android internship.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -57,7 +57,7 @@ function Internship() {
               <img src={data} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Data Science</h3>
               <p className='py-md-3'>Gain experience in the virtual workforce with our remote data science internships.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -65,7 +65,7 @@ function Internship() {
               <img src={python} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Python Programming</h3>
               <p className='py-md-3'>Become proficient in Python programming through our intensive 4-week internship program.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -73,7 +73,7 @@ function Internship() {
               <img src={analytics} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Data Analytics</h3>
               <p className='py-md-3'>Gain practical insights into data analytics with hands-on experience and real-world projects.</p>
-              <a href='https://forms.gle/ARkoCTnofvpyQs7u7' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
+              <a href='https://forms.gle/Ng1dy1Lu2mVxQDreA' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
