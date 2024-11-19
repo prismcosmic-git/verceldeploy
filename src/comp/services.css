@@ -1,13 +1,4 @@
-.services .row {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
 
-.services .row.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 .services .row:nth-child(odd){
   display: flex;
