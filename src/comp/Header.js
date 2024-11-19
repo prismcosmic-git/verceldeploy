@@ -40,7 +40,7 @@ function Header(props) {
           </div>
           <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>
             <input onClick={props.toggleMode} className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.btntext || ""}</label>
+            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.btntext}</label>
           </div>
         </div>
       </nav>
