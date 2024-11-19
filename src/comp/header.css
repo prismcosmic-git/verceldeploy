@@ -18,8 +18,8 @@ header img {
 
 
 .navbar {
-  background-color: transparent;
-  backdrop-filter: blur(50px);
+  /* background-color: transparent;
+  backdrop-filter: blur(50px); */
 }
 
 .nav-item:hover {
