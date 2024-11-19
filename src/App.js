@@ -53,6 +53,7 @@ function App() {
             </div>
             <div className='col-md-6 col-lg-3 px-4'>
               <h2>Follow us</h2>
+
               <p><a href='https://www.instagram.com/weprismcosmic?igsh=MThqbGtqeW1jdjg3Ng==' target='blank' className='text-reset'><i className="bi bi-instagram px-2"></i>Instagram</a></p>
               <p><a href='https://www.linkedin.com/company/prismcosmic/about/' target='blank' className='text-reset'><i className="bi bi-linkedin px-2"></i>LinkedIn</a></p>
             </div>

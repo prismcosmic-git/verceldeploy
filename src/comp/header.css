@@ -48,187 +48,160 @@ header img {
 }
 
 
-/* body {
-  padding: 50px;
-} */
 
 .switch {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .switch__input {
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
 }
 
 .switch__label {
-    position: relative;
-    display: inline-block;
-    width: 120px;
-    height: 60px;
-    background-color: #2B2B2B;
-    border: 5px solid #5B5B5B;
-    border-radius: 9999px;
-    cursor: pointer;
-    transition: all 0.4s cubic-bezier(.46,.03,.52,.96);
+  position: relative;
+  display: inline-block;
+  width: 60px;  /* Reduced from 120px */
+  height: 30px; /* Reduced from 60px */
+  background-color: #8FB5F5;
+  border: 3px solid #347CF8; /* Reduced from 5px */
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(.46,.03,.52,.96);
 }
 
 .switch__indicator {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateX(-72%);
-    display: block;
-    width: 40px;
-    height: 40px;
-    background-color: #7B7B7B;
-    border-radius: 9999px;
-    box-shadow: 10px 0px 0 0 rgba(#000000, 0.2) inset;
-
-    &::before,
-    &::after {
-        position: absolute;
-        content: '';
-        display: block;
-        background-color: #FFFFFF;
-        border-radius: 9999px;
-    }
-
-    &::before {
-        top: 7px;
-        left: 7px;
-        width: 9px;
-        height: 9px;
-        background-color: #FFFFFF;
-        opacity: 0.6;
-    }
-
-    &::after {
-        bottom: 8px;
-        right: 6px;
-        width: 14px;
-        height: 14px;
-        background-color: #FFFFFF;
-        opacity: 0.8;
-    }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(-72%);
+  display: block;
+  width: 20px;  /* Reduced from 40px */
+  height: 20px; /* Reduced from 40px */
+  background-color: #ECD21F;
+  border-radius: 9999px;
+  box-shadow: none;
+  transition: all 0.4s cubic-bezier(.46,.03,.52,.96);
 }
 
 .switch__decoration {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    display: block;
-    width: 5px;
-    height: 5px;
-    background-color: #FFFFFF;
-    border-radius: 9999px;
-    animation: twinkle 0.8s infinite -0.6s;
-
-    &::before,
-    &::after {
-        position: absolute;
-        display: block;
-        content: '';
-        width: 5px;
-        height: 5px;
-        background-color: #FFFFFF;
-        border-radius: 9999px;
-    }
-
-    &::before {
-        top: -20px;
-        left: 10px;
-        opacity: 1;
-        animation: twinkle 0.6s infinite;
-    }
-
-    &::after {
-        top: -7px;
-        left: 30px;
-        animation: twinkle 0.6s infinite -0.2s;
-    }
-}
-
-@keyframes twinkle {
-    50% { opacity: 0.2; }
-}
-
-.switch__indicator {
-    &,
-    &::before,
-    &::after {
-        transition: all 0.4s cubic-bezier(.46,.03,.52,.96);
-    }
-}
-
-.switch__input:checked + .switch__label {
-    background-color: #8FB5F5;
-    border-color: #347CF8;
-
-    .switch__indicator {
-        background-color: #ECD21F;
-        box-shadow: none;
-        transform: translate(-50%, -50%) translateX(72%);
-
-        &::before,
-        &::after {
-            display: none;
-        }
-    }
-
-    .switch__decoration {
-        top: 50%;
-        transform: translate(0%, -50%);
-        animation: cloud 8s linear infinite;
-
-        width: 20px;
-        height: 20px;
-
-        &::before {
-            width: 10px;
-            height: 10px;
-            top: auto;
-            bottom: 0;
-            left: -8px;
-            animation: none;
-        }
-
-        &::after {
-            width: 15px;
-            height: 15px;
-            top: auto;
-            bottom: 0;
-            left: 16px;
-            animation: none;
-        }
-
-        &,
-        &::before,
-        &::after {
-            border-radius: 9999px 9999px 0 0;
-        }
-
-        &::after {
-            border-bottom-right-radius: 9999px;
-        }
-    }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 10px;  /* Reduced from 20px */
+  height: 10px; /* Reduced from 20px */
+  background-color: #FFFFFF;
+  border-radius: 9999px 9999px 0 0;
+  animation: cloud 4s linear infinite; /* Reduced from 8s */
+  
+  &::before,
+  &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      background-color: #FFFFFF;
+      border-radius: 9999px;
+  }
+  
+  &::before {
+      width: 5px;  /* Reduced from 10px */
+      height: 5px; /* Reduced from 10px */
+      bottom: 0;
+      left: -4px;  /* Adjusted from -8px */
+  }
+  
+  &::after {
+      width: 7px;   /* Reduced from 15px */
+      height: 7px;  /* Reduced from 15px */
+      bottom: 0;
+      left: 8px;    /* Adjusted from 16px */
+      border-bottom-right-radius: 9999px;
+  }
 }
 
 @keyframes cloud {
-    0% {
-        transform: translate(0%, -50%);
-    }
-    50% {
-        transform: translate(-50%, -50%);
-    }
-    100% {
-        transform: translate(0%, -50%);
-    }
+  0% {
+      transform: translate(-20%, -50%);
+  }
+  50% {
+      transform: translate(20%, -50%);
+  }
+  100% {
+      transform: translate(-20%, -50%);
+  }
+}
+
+.switch__input:checked + .switch__label {
+  background-color: #2B2B2B;
+  border-color: #5B5B5B;
+  
+  .switch__indicator {
+      background-color: #7B7B7B;
+      transform: translate(-50%, -50%) translateX(72%);
+      box-shadow: 5px 0px 0 0 rgba(#000000, 0.2) inset; /* Reduced from 10px */
+      
+      &::before,
+      &::after {
+          display: block;
+          background-color: #FFFFFF;
+          border-radius: 9999px;
+      }
+      
+      &::before {
+          top: 4px;    /* Adjusted from 7px */
+          left: 4px;   /* Adjusted from 7px */
+          width: 4px;  /* Reduced from 9px */
+          height: 4px; /* Reduced from 9px */
+          opacity: 0.6;
+      }
+      
+      &::after {
+          bottom: 4px;  /* Adjusted from 8px */
+          right: 3px;   /* Adjusted from 6px */
+          width: 6px;   /* Reduced from 14px */
+          height: 6px;  /* Reduced from 14px */
+          opacity: 0.8;
+      }
+  }
+  
+  .switch__decoration {
+      top: 65%;
+      width: 3px;   /* Reduced from 5px */
+      height: 3px;  /* Reduced from 5px */
+      animation: twinkle 1.2s infinite;
+      
+      &::before {
+          top: -10px;  /* Adjusted from -20px */
+          left: 5px;   /* Adjusted from 10px */
+          width: 3px;  /* Reduced from 5px */
+          height: 3px; /* Reduced from 5px */
+          opacity: 1;
+          animation: twinkle 1.2s infinite 0.4s;
+      }
+      
+      &::after {
+          top: -4px;   /* Adjusted from -7px */
+          left: 15px;  /* Adjusted from 30px */
+          width: 3px;  /* Reduced from 5px */
+          height: 3px; /* Reduced from 5px */
+          animation: twinkle 1.2s infinite 0.8s;
+      }
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { 
+      opacity: 1; 
+  }
+  50% { 
+      opacity: 0.2; 
+  }
 }
