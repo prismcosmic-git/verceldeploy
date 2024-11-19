@@ -24,18 +24,18 @@ export default function Contact(props) {
                       placeholder="Enter Name" required="" />
                   </div>
                   <div className="form-group">
-                    <input type="email" className="form-control mt-3 text-reset" id="exampleInputEmail1"  
+                    <input type="email" className="form-control mt-3" id="exampleInputEmail1"  
                       aria-describedby="emailHelp" placeholder="Enter email" required="" />
                   </div>
                   <div className="form-group">
-                    <input type="text" className="form-control mt-3 text-reset" id="exampleInputNumber"  
+                    <input type="text" className="form-control mt-3" id="exampleInputNumber"  
                       aria-describedby="Number" placeholder="Enter Number" required="" />
                   </div>
                   <div className="form-group">
-                    <textarea name="contact-message" cols="30" rows="5" className="form-control mt-3 text-reset"  
+                    <textarea name="contact-message" cols="30" rows="5" className="form-control mt-3"  
                       placeholder="Message"></textarea>
                   </div>
-                  <button type="submit" className='my-3 px-4 py-2 rounded border border-2 text-reset'>Send Message</button>
+                  <button type="submit" className='my-3 px-4 py-2 rounded border border-2'>Send Message</button>
                 </form>
               </div>
             </div>
