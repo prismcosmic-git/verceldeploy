@@ -36,7 +36,6 @@
 
 // export default Main;
 
-
 import React from 'react';
 import './main.css';
 import gif from '../images/hero.gif';
@@ -80,19 +79,26 @@ function Main() {
       </div>
       <div className='home'>
         <div className='row'>
-          <div className='col-md-6 my-auto content-wrapper'>
+          <div className='col-md-6 my-auto content-wrapper text-center'>
             <div className="badge">
               <span className="badge-text fs-3">PrismCosmic</span>
             </div>
             <h1 className="sliding-text fs-1"><b>Illuminating Your Digital Universe</b></h1>
             <h3 className='my-4 fade-in-up'>Leading the Way Delivering Next-Generation IT Solutions</h3>
-            <a href="/" className="btn-wrapper">
-              <button className='cta-button'>
-                Get Started
-                <ArrowRight className="btn-icon" />
-                <div className="btn-background"></div>
-              </button>
-            </a>
+            <div className="d-flex justify-content-center">
+              <a 
+                href="https://forms.gle/6q4gjRoAJgrHbdR56" 
+                className="btn-wrapper"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className='cta-button'>
+                  Get Started
+                  <ArrowRight className="btn-icon" />
+                  <div className="btn-background"></div>
+                </button>
+              </a>
+            </div>
           </div>
           <div className='d-none d-md-inline-block col-md-6'>
             <div className="image-wrapper">
