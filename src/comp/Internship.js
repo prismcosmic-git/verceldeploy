@@ -81,7 +81,7 @@ function Internship() {
               <img src={cyber} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Cyber Security</h3>
               <p className='py-md-3'>Step into the world of cybersecurity with real-world projects and exposure to cutting-edge security practices.</p>
-              <a href='/' type='button'  className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Comming Soon</a>
+              <a href='https://forms.gle/V2yni38HxYhityxK9' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
           <div className='col-md-6 col-lg-4'>
@@ -89,7 +89,7 @@ function Internship() {
               <img src={cloud} alt="" className='img1 mb-md-3 ' />
               <h3 className='py-3'>Cloud Computing</h3>
               <p className='py-md-3'>Explore the realm of cloud computing with real-world projects and the latest technologies.</p>
-              <a href='/' type='button'  className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Comming Soon</a>
+              <a href='https://forms.gle/V2yni38HxYhityxK9' type='button' target='blank' className='px-4 py-2 rounded border border-0 mb-2 text-reset'>Apply Now<i className="bi bi-arrow-right mx-2 mt-2"></i></a>
             </div>
           </div>
         </div>
