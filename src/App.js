@@ -43,7 +43,6 @@ function App() {
             <div className='d-none d-md-block col-md-6 col-lg-3 px-4'>
               <h2>About Us</h2>
               <p>PrismCosmic Pvt. Ltd. is a technology company specializing in mobile and web app development, server and database management, business automation, AI-driven insights, and digital marketing. We create scalable, secure, and high-performance solutions to help businesses optimize operations and drive growth.</p>
-
             </div>
             <div className='col-md-6 col-lg-3 px-4'>
               <h2>Quick Links</h2>
@@ -54,7 +53,6 @@ function App() {
             </div>
             <div className='col-md-6 col-lg-3 px-4'>
               <h2>Follow us</h2>
-
               <p><a href='https://www.instagram.com/weprismcosmic?igsh=MThqbGtqeW1jdjg3Ng==' target='blank' className='text-reset'><i className="bi bi-instagram px-2"></i>Instagram</a></p>
               <p><a href='https://www.linkedin.com/company/prismcosmic/about/' target='blank' className='text-reset'><i className="bi bi-linkedin px-2"></i>LinkedIn</a></p>
             </div>
