@@ -42,7 +42,8 @@ function App() {
           <div className='row'>
             <div className='d-none d-md-block col-md-6 col-lg-3 px-4'>
               <h2>About Us</h2>
-              <p>We bridge the gap between students and industry knowledge, guiding them towards their dreams. As an MSME registered startup, we welcome new connections on this journey of endless learning and joy!</p>
+              <p>PrismCosmic Pvt. Ltd. is a technology company specializing in mobile and web app development, server and database management, business automation, AI-driven insights, and digital marketing. We create scalable, secure, and high-performance solutions to help businesses optimize operations and drive growth.</p>
+
             </div>
             <div className='col-md-6 col-lg-3 px-4'>
               <h2>Quick Links</h2>
