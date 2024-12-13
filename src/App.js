@@ -61,7 +61,7 @@ function App() {
             <div className='col-md-6 col-lg-3 px-4'>
               <h2>Contact Info</h2>
               <p><i className="bi bi-envelope px-2"></i><b>Mail:</b> hr@prismcosmic.com</p>
-              <p><a href="https://maps.app.goo.gl/FbsxhCCM3CfaG8qk8" target='blank' className='text-reset'><i className="bi bi-geo px-2"></i><b>Address:</b> Bangalore, Karnataka 560001, IN</a></p>
+              <p><i className="bi bi-geo px-2"></i><b>Address:</b> Bangalore, Karnataka 560001, IN</p>
             </div>
           </div>
           <hr />
